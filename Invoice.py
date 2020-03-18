@@ -32,7 +32,7 @@ class Invoice:
     def inputAnswer(self, input_value):
         while True:
             userInput = input(input_value)
-            if userInput in ['v', 'n']:
+            if userInput in ['y', 'n']:
                 return userInput
             print("y or n! Try again.")
 
